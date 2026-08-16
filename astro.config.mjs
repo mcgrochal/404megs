@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mcgrochal.github.io',
-  base: '/404megs',
+  base: '/404megs/',
   integrations: [mdx(), sitemap(), tailwind()]
 });
